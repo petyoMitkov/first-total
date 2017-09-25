@@ -12,7 +12,6 @@ const options = {};
 // options.sleep = 3000;
 
 var fs = require('fs');
-var options = {};
 options.ip = 'auto';
 options.port = process.env.PORT;
 var framework = require('total.js');
