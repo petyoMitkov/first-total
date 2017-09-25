@@ -11,11 +11,6 @@ const options = {};
 // options.config = { name: 'Total.js' };
 // options.sleep = 3000;
 
-var fs = require('fs');
-options.ip = 'auto';
-options.port = process.env.PORT;
-var framework = require('total.js');
-framework.http('release', options);
 
 require('total.js').http('release', options);
 // require('total.js').cluster.http(5, 'release', options);

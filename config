@@ -10,5 +10,8 @@ mail-address-from               : your@yourwebsite.com
 mail-address-reply              : your@yourwebsite.com
 mail-address-copy               :
 mail-contact                    : petersirka@gmail.com
-default-ip                      : auto
-default-port                    : auto
+
+// IMPORTANT FOR HEROKU
+default-ip                     : auto
+default-port                   : auto
+default-image-converter        : im
