@@ -1,14 +1,15 @@
 {
-  "name": "total01",
-  "version": "1.0.0",
-  "description": "[![Support](https://www.totaljs.com/img/button-support.png)](https://www.totaljs.com/support/)",
-  "main": "debug.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "total.js": "^2.8.0"
-  }
+    "name": "total01",
+    "version": "1.0.0",
+    "description": "[![Support](https://www.totaljs.com/img/button-support.png)](https://www.totaljs.com/support/)",
+    "main": "debug.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node release.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "total.js": "^2.8.0"
+    }
 }
